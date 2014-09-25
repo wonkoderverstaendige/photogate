@@ -1,4 +1,4 @@
-update=di 23 sep 2014 22:19:27 CEST
+update=Thu 25 Sep 2014 20:01:00 CEST
 version=1
 last_client=kicad
 [cvpcb]
@@ -25,9 +25,11 @@ SolderMaskMinWidth=0.000000000000
 DrawSegmentWidth=0.200000000000
 BoardOutlineThickness=0.100000000000
 ModuleOutlineThickness=0.150000000000
+[general]
+version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=/usr/local/share/kicad/modules;/usr/local/share/kicad/modules/packages3d
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -60,5 +62,3 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=photogate
-[general]
-version=1

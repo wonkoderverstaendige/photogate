@@ -111,10 +111,6 @@ F 3 "" H 5200 2400 60  0000 C CNN
 	1    5200 3600
 	-1   0    0    1   
 $EndComp
-Text GLabel 7300 3400 2    60   UnSpc ~ 0
-GND
-Text GLabel 6300 3400 0    60   UnSpc ~ 0
-+5V
 Text GLabel 4700 3800 0    60   Output ~ 0
 D2
 Text GLabel 4900 3700 0    60   Output ~ 0
@@ -138,34 +134,18 @@ GND
 $Comp
 L CONN_02X05 P7
 U 1 1 5421918E
-P 6800 3600
-F 0 "P7" H 6800 3900 50  0000 C CNN
-F 1 "CONN_02X05" H 6800 3300 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_2x05" H 6800 2400 60  0001 C CNN
-F 3 "" H 6800 2400 60  0000 C CNN
-	1    6800 3600
+P 6850 3600
+F 0 "P7" H 6850 3900 50  0000 C CNN
+F 1 "CONN_02X05" H 6850 3300 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_2x05" H 6850 2400 60  0001 C CNN
+F 3 "" H 6850 2400 60  0000 C CNN
+	1    6850 3600
 	1    0    0    1   
 $EndComp
 Text GLabel 4700 3400 0    60   UnSpc ~ 0
 GND
 Text GLabel 5700 3400 2    60   UnSpc ~ 0
 +5V
-Text GLabel 7300 3800 2    60   Input ~ 0
-D2
-Text GLabel 7100 3700 2    60   Input ~ 0
-D4
-Text GLabel 7300 3600 2    60   Input ~ 0
-D6
-Text GLabel 7100 3500 2    60   Input ~ 0
-D8
-Text GLabel 6300 3800 0    60   Input ~ 0
-D1
-Text GLabel 6500 3700 0    60   Input ~ 0
-D3
-Text GLabel 6300 3600 0    60   Input ~ 0
-D5
-Text GLabel 6500 3500 0    60   Input ~ 0
-D7
 Text Notes 7000 4050 2    60   ~ 0
 Upstream
 Text Notes 5450 4050 2    60   ~ 0
@@ -419,22 +399,6 @@ Wire Wire Line
 	3700 1850 3700 2700
 Wire Wire Line
 	4900 1900 5000 1900
-Wire Wire Line
-	6500 3500 6550 3500
-Wire Wire Line
-	6300 3600 6550 3600
-Wire Wire Line
-	6550 3700 6500 3700
-Wire Wire Line
-	6300 3800 6550 3800
-Wire Wire Line
-	7100 3700 7050 3700
-Wire Wire Line
-	7300 3800 7050 3800
-Wire Wire Line
-	7050 3500 7100 3500
-Wire Wire Line
-	7300 3600 7050 3600
 Connection ~ 2800 2000
 Wire Wire Line
 	8900 1350 8900 1500
@@ -512,8 +476,44 @@ Wire Wire Line
 	4700 3400 4950 3400
 Wire Wire Line
 	5450 3400 5700 3400
+Text GLabel 7350 3800 2    60   Output ~ 0
+D1
+Text GLabel 7150 3700 2    60   Output ~ 0
+D3
+Text GLabel 7350 3600 2    60   Output ~ 0
+D5
+Text GLabel 7150 3500 2    60   Output ~ 0
+D7
+Text GLabel 7350 3400 2    60   UnSpc ~ 0
++5V
 Wire Wire Line
-	6300 3400 6550 3400
+	7100 3800 7350 3800
 Wire Wire Line
-	7050 3400 7300 3400
+	7100 3700 7150 3700
+Wire Wire Line
+	7100 3600 7350 3600
+Wire Wire Line
+	7100 3500 7150 3500
+Wire Wire Line
+	7100 3400 7350 3400
+Text GLabel 6350 3800 0    60   Output ~ 0
+D2
+Text GLabel 6550 3700 0    60   Output ~ 0
+D4
+Text GLabel 6350 3600 0    60   Output ~ 0
+D6
+Text GLabel 6550 3500 0    60   Output ~ 0
+D8
+Text GLabel 6350 3400 0    60   UnSpc ~ 0
+GND
+Wire Wire Line
+	6350 3600 6600 3600
+Wire Wire Line
+	6350 3800 6600 3800
+Wire Wire Line
+	6350 3400 6600 3400
+Wire Wire Line
+	6550 3500 6600 3500
+Wire Wire Line
+	6600 3700 6550 3700
 $EndSCHEMATC
