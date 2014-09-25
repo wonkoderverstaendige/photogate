@@ -1,0 +1,7 @@
+*.bak
+*.bck
+*.kicad_pcb-bak
+gerbers/*.zip
+demos
+doc
+internat
