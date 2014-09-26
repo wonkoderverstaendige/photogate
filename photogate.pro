@@ -1,4 +1,4 @@
-update=Thu 25 Sep 2014 20:01:00 CEST
+update=vr 26 sep 2014 00:23:08 CEST
 version=1
 last_client=kicad
 [cvpcb]
@@ -29,7 +29,7 @@ ModuleOutlineThickness=0.150000000000
 version=1
 [eeschema]
 version=1
-LibDir=/usr/local/share/kicad/modules;/usr/local/share/kicad/modules/packages3d
+LibDir=/usr/local/share/kicad/modules;/usr/local/share/kicad/modules/packages3d;footprints.pretty
 [eeschema/libraries]
 LibName1=power
 LibName2=device
